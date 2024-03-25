@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:DS_ExpertIOS.xctestplan">
+   </FileRef>
+   <FileRef
       location = "group:DS_ExpertIOS.xcodeproj">
    </FileRef>
 </Workspace>

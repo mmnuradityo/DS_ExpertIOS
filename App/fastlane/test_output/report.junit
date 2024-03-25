@@ -1,13 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='DSSearchTests.xctest' tests='4' failures='0'>
+<testsuites name='DSSearchTests.xctest' tests='12' failures='0'>
+  <testsuite name='DS_ExpertIOSTests.InjectionTests' tests='2' failures='0'>
+    <testcase classname='DS_ExpertIOSTests.InjectionTests' name='testFavoriteUseCase' time='0.003'/>
+    <testcase classname='DS_ExpertIOSTests.InjectionTests' name='testHomeUseCase' time='0.001'/>
+  </testsuite>
+  <testsuite name='DS_ExpertIOSTests.RouterTests' tests='6' failures='0'>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testFavoriteRouter' time='0.005'/>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testHomeRouter' time='0.002'/>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testMakeFavoriteViewController' time='0.002'/>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testMakeHomeViewController' time='0.002'/>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testMakeProfileViewController' time='0.002'/>
+    <testcase classname='DS_ExpertIOSTests.RouterTests' name='testMakeSearchViewBar' time='0.001'/>
+  </testsuite>
   <testsuite name='DSDetailViewTests.DSDetailViewBuilderTests' tests='1' failures='0'>
-    <testcase classname='DSDetailViewTests.DSDetailViewBuilderTests' name='testBuilder' time='0.080'/>
+    <testcase classname='DSDetailViewTests.DSDetailViewBuilderTests' name='testBuilder' time='0.092'/>
   </testsuite>
   <testsuite name='DSProfileTests.DSProfileBuilderTests' tests='2' failures='0'>
-    <testcase classname='DSProfileTests.DSProfileBuilderTests' name='testBuilder' time='0.044'/>
-    <testcase classname='DSProfileTests.DSProfileBuilderTests' name='testRouter' time='0.192'/>
+    <testcase classname='DSProfileTests.DSProfileBuilderTests' name='testBuilder' time='0.139'/>
+    <testcase classname='DSProfileTests.DSProfileBuilderTests' name='testRouter' time='0.271'/>
   </testsuite>
   <testsuite name='DSSearchTests.DSSearchBuilderTests' tests='1' failures='0'>
-    <testcase classname='DSSearchTests.DSSearchBuilderTests' name='testBuilder' time='0.044'/>
+    <testcase classname='DSSearchTests.DSSearchBuilderTests' name='testBuilder' time='0.412'/>
   </testsuite>
 </testsuites>

@@ -1,7 +1,7 @@
 {
   "configurations" : [
     {
-      "id" : "47B757B3-EF80-4EBF-923D-4A550366F363",
+      "id" : "06B75765-A0A6-47C8-809E-677544A5C392",
       "name" : "Configuration 1",
       "options" : {
 
@@ -9,7 +9,12 @@
     }
   ],
   "defaultOptions" : {
-    "testTimeoutsEnabled" : true
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:DS_ExpertIOS.xcodeproj",
+      "identifier" : "84F323D92B5B8305007265D0",
+      "name" : "DS_ExpertIOS"
+    }
   },
   "testTargets" : [
     {
