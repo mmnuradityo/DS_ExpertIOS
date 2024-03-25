@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
       .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.8.1")),
-      .package(url: "https://github.com/realm/realm-swift.git", branch: "master"),
+      .package(url: "https://github.com/realm/realm-swift.git", .upToNextMajor(from: "10.49.1")),
       .package(url: "https://github.com/square/Cleanse.git", .upToNextMajor(from: "4.0.0"))
     ],
     targets: [
