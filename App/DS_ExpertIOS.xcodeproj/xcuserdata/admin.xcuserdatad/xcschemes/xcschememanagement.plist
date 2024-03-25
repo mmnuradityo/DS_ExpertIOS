@@ -30,6 +30,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>DS_ExpertIOSTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
 		<key>GettingStarted (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -54,6 +59,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>842D8F802BA485F8001F2CB2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>84F323D92B5B8305007265D0</key>
 		<dict>
 			<key>primary</key>

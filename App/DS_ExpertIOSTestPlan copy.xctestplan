@@ -1,0 +1,45 @@
+{
+  "configurations" : [
+    {
+      "id" : "47B757B3-EF80-4EBF-923D-4A550366F363",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:DS_ExpertIOS.xcodeproj",
+        "identifier" : "842D8F802BA485F8001F2CB2",
+        "name" : "DS_ExpertIOSTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Module\/DSDetailView",
+        "identifier" : "DSDetailViewTests",
+        "name" : "DSDetailViewTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Module\/DSProfile",
+        "identifier" : "DSProfileTests",
+        "name" : "DSProfileTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..\/Module\/DSSearch",
+        "identifier" : "DSSearchTests",
+        "name" : "DSSearchTests"
+      }
+    }
+  ],
+  "version" : 1
+}
