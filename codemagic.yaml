@@ -1,0 +1,33 @@
+workflows:
+  ios-project-debug: # workflow ID
+    name: iOS debug # workflow name
+    environment:
+      xcode: latest
+      cocoapods: default
+      groups:
+        - fastlane
+      vars:
+          XCODE_PROJECT: "App/DS_ExpertIOS.xcodeproj" # Isikan nama project Anda.
+          XCODE_SCHEME: "DS_ExpertIOS" # Isikan nama scheme project Anda.
+    scripts:
+      - name: Run fastlane
+        script: |
+          gem install bundler:3.0.0
+          bundle install
+          bundle exec fastlane ios unit_test
+      - name: Build debug app
+        script: |
+          xcodebuild build \
+          -project "$XCODE_PROJECT" \
+          -scheme "$XCODE_SCHEME" \
+          CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+    artifacts:
+      - /tmp/xcodebuild_logs/*.log
+      - $HOME/Library/Developer/Xcode/DerivedData/**/Build/**/*.app
+    publishing:
+      email:
+        recipients:
+          - nuradityo@gmail.com
+        notify:
+          success: true
+          failure: true
