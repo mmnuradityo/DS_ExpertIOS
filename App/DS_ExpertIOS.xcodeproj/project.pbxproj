@@ -48,13 +48,6 @@
 			remoteGlobalIDString = 84F323D92B5B8305007265D0;
 			remoteInfo = DS_ExpertIOS;
 		};
-		8498C9B42BA7689C0095BD37 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84F323D22B5B8305007265D0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84F323D92B5B8305007265D0;
-			remoteInfo = DS_ExpertIOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -70,7 +63,6 @@
 		8498C9A12BA74D8B0095BD37 /* DSSearch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSSearch; path = ../Module/DSSearch; sourceTree = "<group>"; };
 		8498C9A62BA75B130095BD37 /* DSDetailView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSDetailView; path = ../Module/DSDetailView; sourceTree = "<group>"; };
 		8498C9A92BA762950095BD37 /* DSProfile */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSProfile; path = ../Module/DSProfile; sourceTree = "<group>"; };
-		8498C9B02BA7689C0095BD37 /* InjectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InjectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8498C9B22BA7689C0095BD37 /* InjectionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectionTests.swift; sourceTree = "<group>"; };
 		8498C9BA2BA769790095BD37 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
 		849C5F9F2B97C05F00CB4612 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
@@ -110,13 +102,6 @@
 				8498C9D12BA7D46C0095BD37 /* RealmSwift in Frameworks */,
 				8498C9CF2BA7D46C0095BD37 /* Realm in Frameworks */,
 				25F95EE4C08FFCBA86CFFF42 /* Pods_DS_ExpertIOSTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8498C9AD2BA7689C0095BD37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +254,6 @@
 			children = (
 				84F323DA2B5B8305007265D0 /* DS_ExpertIOS.app */,
 				842D8F812BA485F8001F2CB2 /* DS_ExpertIOSTests.xctest */,
-				8498C9B02BA7689C0095BD37 /* InjectionTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -357,24 +341,6 @@
 			productReference = 842D8F812BA485F8001F2CB2 /* DS_ExpertIOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8498C9AF2BA7689C0095BD37 /* InjectionTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8498C9B62BA7689C0095BD37 /* Build configuration list for PBXNativeTarget "InjectionTests" */;
-			buildPhases = (
-				8498C9AC2BA7689C0095BD37 /* Sources */,
-				8498C9AD2BA7689C0095BD37 /* Frameworks */,
-				8498C9AE2BA7689C0095BD37 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8498C9B52BA7689C0095BD37 /* PBXTargetDependency */,
-			);
-			name = InjectionTests;
-			productName = InjectionTests;
-			productReference = 8498C9B02BA7689C0095BD37 /* InjectionTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 		84F323D92B5B8305007265D0 /* DS_ExpertIOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F323EE2B5B8306007265D0 /* Build configuration list for PBXNativeTarget "DS_ExpertIOS" */;
@@ -418,10 +384,6 @@
 						LastSwiftMigration = 1400;
 						TestTargetID = 84F323D92B5B8305007265D0;
 					};
-					8498C9AF2BA7689C0095BD37 = {
-						CreatedOnToolsVersion = 14.0.1;
-						TestTargetID = 84F323D92B5B8305007265D0;
-					};
 					84F323D92B5B8305007265D0 = {
 						CreatedOnToolsVersion = 14.0.1;
 					};
@@ -446,20 +408,12 @@
 			targets = (
 				84F323D92B5B8305007265D0 /* DS_ExpertIOS */,
 				842D8F802BA485F8001F2CB2 /* DS_ExpertIOSTests */,
-				8498C9AF2BA7689C0095BD37 /* InjectionTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		842D8F7F2BA485F8001F2CB2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8498C9AE2BA7689C0095BD37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -552,13 +506,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8498C9AC2BA7689C0095BD37 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		84F323D62B5B8305007265D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -589,11 +536,6 @@
 			isa = PBXTargetDependency;
 			target = 84F323D92B5B8305007265D0 /* DS_ExpertIOS */;
 			targetProxy = 842D8F852BA485F8001F2CB2 /* PBXContainerItemProxy */;
-		};
-		8498C9B52BA7689C0095BD37 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84F323D92B5B8305007265D0 /* DS_ExpertIOS */;
-			targetProxy = 8498C9B42BA7689C0095BD37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -656,40 +598,6 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OBJC_INTERFACE_HEADER_NAME = "-Swift.h";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_ExpertIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_ExpertIOS";
-			};
-			name = Release;
-		};
-		8498C9B72BA7689C0095BD37 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.dicoding.InjectionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_ExpertIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_ExpertIOS";
-			};
-			name = Debug;
-		};
-		8498C9B82BA7689C0095BD37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aditya.dicoding.InjectionTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DS_ExpertIOS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DS_ExpertIOS";
@@ -882,15 +790,6 @@
 			buildConfigurations = (
 				842D8F882BA485F8001F2CB2 /* Debug */,
 				842D8F892BA485F8001F2CB2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8498C9B62BA7689C0095BD37 /* Build configuration list for PBXNativeTarget "InjectionTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8498C9B72BA7689C0095BD37 /* Debug */,
-				8498C9B82BA7689C0095BD37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

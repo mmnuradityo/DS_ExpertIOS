@@ -95,6 +95,36 @@
                ReferencedContainer = "container:DS_ExpertIOS.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DSDetailViewTests"
+               BuildableName = "DSDetailViewTests"
+               BlueprintName = "DSDetailViewTests"
+               ReferencedContainer = "container:../Module/DSDetailView">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DSProfileTests"
+               BuildableName = "DSProfileTests"
+               BlueprintName = "DSProfileTests"
+               ReferencedContainer = "container:../Module/DSProfile">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DSSearchTests"
+               BuildableName = "DSSearchTests"
+               BlueprintName = "DSSearchTests"
+               ReferencedContainer = "container:../Module/DSSearch">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction

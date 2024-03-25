@@ -20,6 +20,7 @@ platform :ios do
     scan(
 	workspace: "DS_ExpertIOS.xcworkspace",
  	scheme: "DS_ExpertIOS",
+	device: "iPhone 14 Pro",
 	clean: true
 	)
   end
