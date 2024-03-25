@@ -7,11 +7,12 @@ workflows:
       groups:
         - fastlane
       vars:
-          XCODE_PROJECT: "App/DS_ExpertIOS.xcodeproj" # Isikan nama project Anda.
+          XCODE_PROJECT: "App/DS_ExpertIOS.xcworkspace" # Isikan nama project Anda.
           XCODE_SCHEME: "DS_ExpertIOS" # Isikan nama scheme project Anda.
     scripts:
       - name: Run fastlane
         script: |
+          cd App && \
           gem install bundler:3.0.0
           bundle install
           bundle exec fastlane ios unit_test
